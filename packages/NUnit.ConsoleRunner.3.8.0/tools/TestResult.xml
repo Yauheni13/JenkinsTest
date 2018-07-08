@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-07-08 01:12:50Z" end-time="2018-07-08 01:13:09Z" duration="19.167310">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\lenovo\Desktop\JenkinsTest\JenkinsTest\bin\Debug\JenkinsTest.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1002" name="JenkinsTest.dll" fullname="C:\Users\lenovo\Desktop\JenkinsTest\JenkinsTest\bin\Debug\JenkinsTest.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-08 01:12:51Z" end-time="2018-07-08 01:13:09Z" duration="17.905142" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601.65536" platform="Win32NT" cwd="C:\Users\lenovo\Desktop\JenkinsTest\packages\NUnit.ConsoleRunner.3.8.0\tools" machine-name="LENOVO" user="lenovo" user-domain="LENOVO" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\lenovo\Desktop\JenkinsTest\packages\NUnit.ConsoleRunner.3.8.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="18220" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1003" name="JenkinsTest" fullname="JenkinsTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-08 01:12:51Z" end-time="2018-07-08 01:13:09Z" duration="17.875518" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestFixture" id="0-1000" name="UnitTest1" fullname="JenkinsTest.UnitTest1" classname="JenkinsTest.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-08 01:12:51Z" end-time="2018-07-08 01:13:09Z" duration="17.865431" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-case id="0-1001" name="GoogleTest" fullname="JenkinsTest.UnitTest1.GoogleTest" methodname="GoogleTest" classname="JenkinsTest.UnitTest1" runstate="Runnable" seed="55948444" result="Passed" start-time="2018-07-08 01:12:51Z" end-time="2018-07-08 01:13:09Z" duration="17.839305" asserts="0" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
