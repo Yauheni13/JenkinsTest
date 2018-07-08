@@ -18,7 +18,9 @@ namespace JenkinsTest
             driver.Navigate().GoToUrl(@"https://google.com");
             Thread.Sleep(2000);
             driver.Quit();
-            Console.WriteLine("Test Case fineshed");
+            Console.WriteLine("Test Case has been finished");
+
+            throw new Exception("Test cases failed");
         }
     }
 }
