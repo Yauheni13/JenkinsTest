@@ -22,7 +22,7 @@ namespace JenkinsTest
             driver.Quit();
             Console.WriteLine("Test Case has been finished");
 
-            throw new Exception("Test cases failed");
+            //throw new Exception("Test cases failed");
         }
 
         void TakeScrenShot(IWebDriver driver)
