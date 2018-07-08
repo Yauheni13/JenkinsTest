@@ -12,11 +12,13 @@ namespace JenkinsTest
         [Test]
         public void GoogleTest()
         {
+            Console.WriteLine("Test Case has been started");
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(@"https://google.com");
             Thread.Sleep(2000);
             driver.Quit();
+            Console.WriteLine("Test Case fineshed");
         }
     }
 }
