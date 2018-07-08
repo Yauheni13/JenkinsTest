@@ -15,7 +15,7 @@ namespace JenkinsTest
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(@"https://google.com");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
             driver.Quit();
         }
     }
